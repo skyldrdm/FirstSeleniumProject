@@ -1,4 +1,4 @@
-package com.cbt;
+package com.abc;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +12,7 @@ public class SeleniumDemo {
 		
 	WebDriver driver=new ChromeDriver();
 		
-	driver.get("http://cybertekschool.com");
+	driver.get("http://amazon.com");
 	
 	//System.setProperty("webdriver.gecko.driver","/Users/kaan/Desktop/selenium dependencies/drivers/geckodriver");
 	
