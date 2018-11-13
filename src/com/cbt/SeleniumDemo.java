@@ -9,6 +9,7 @@ public class SeleniumDemo {
 	public static void main(String[] args) {
 		
 	System.setProperty("webdriver.chrome.driver","/Users/kaan/Desktop/selenium dependencies/drivers/chromedriver");
+	//WebDriverManager.chromedriver().setup();	
 		
 	WebDriver driver=new ChromeDriver();
 		
